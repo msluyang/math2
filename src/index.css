@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-game {
+  font-family: 'ZCOOL KuaiLe', 'Plus Jakarta Sans', cursive, sans-serif;
+}
+
+@keyframes mario-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes coin-spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes float-cloud {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(12px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-mario-bounce {
+  animation: mario-bounce 1.6s ease-in-out infinite;
+}
+
+.animate-coin-spin {
+  animation: coin-spin 2s linear infinite;
+}
+
+.animate-float-slow {
+  animation: float-cloud 4s ease-in-out infinite;
+}
+
+/* Custom crisp gaming border styles */
+.pixel-box-amber {
+  border: 3px solid #d97706;
+  box-shadow: 0 4px 0 #b45309;
+}
+
+.pixel-box-red {
+  border: 3px solid #dc2626;
+  box-shadow: 0 4px 0 #991b1b;
+}
+
+.pixel-box-green {
+  border: 3px solid #16a34a;
+  box-shadow: 0 4px 0 #15803d;
+}
+
+.pixel-box-blue {
+  border: 3px solid #2563eb;
+  box-shadow: 0 4px 0 #1d4ed8;
+}

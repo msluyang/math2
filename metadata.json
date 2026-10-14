@@ -1,0 +1,6 @@
+{
+  "name": "马里奥数学大冒险：有理数王国",
+  "description": "基于《初中知识清单·数学》第一章有理数打造的互动式儿童学习应用。融合马里奥游戏世界、动态数轴跳跃、符号撞击、乘方实验室与城堡闯关测验，激发孩子的数学阅读与探索兴趣。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
